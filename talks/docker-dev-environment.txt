@@ -1,0 +1,12 @@
+Docker - lightweight containers to provide isolation - one process per container (best practice)
+- Image - immutable snapshot of a container
+- Container - a running instance of an image
+- Dockerfile - DSL for new images
+- Hub (Registry) - share images
+
+- fast - minimal overhead / resource usage - run full production stack locally
+- run the same code on all dev machines
+
+- Mac - Use boot2Docker
+
+Use makefiles for automation
