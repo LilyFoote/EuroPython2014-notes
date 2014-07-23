@@ -1,0 +1,43 @@
+get/set/del, getattr/setattr/delattr
+Object: __type__, __dict__ - look for attribute in __dict__ then in __type__
+__getattr__ redirects attribute lookup - not called for items in __dict__
+__getattribute__ skips __dict__ - need to special case for attrs already on obj
+__setattr__/__delattr__
+Avoid __getattr__, etc - not targetted - usually want to override one - Use Descriptors
+
+class Square:
+    area = AreaDescriptor()
+
+class AreaDescriptor:
+    def __get__(self, instance, type=None):
+        if instance is None:
+            return self
+        else:
+            return instance.side ** 2
+
+    def __set__(self, instance, value):
+        ...
+
+    def __delete__(self, instance):
+        ...
+
+data descriptor - has __set__ - non data descriptor doesn't
+
+property - can be implemented as a descriptor
+
+__slots__ - saves memory - removes __dict__ - can get/set existing attrs, but not add new ones
+Class.attr - Descriptor
+
+0: __getattribute__ on class
+1: data descriptor on class
+2: __dict__
+3: non-data descriptor on class
+4: simple value from class
+5: __getattr__ on class
+6: AttributeError
+
+Cached Property - also called reify - call function in __get__ and store in __dict__ - then always looked up in __dict__ - del clears cache
+
+Lookups on class go in mro order: Child.mro() == [Child, Parent, object] - Child().mro - AttributeError - mro defined on type metaclass
+
+Magic! - Use wisely!

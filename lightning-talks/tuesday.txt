@@ -1,0 +1,17 @@
+Elliptics - distributed key/value storage - distributed cache - alternative to S3 - github.com/reverbrain/elliptics
+On being super() - mro, ordering of inheritance graph - C3 linearising algorithm - Not all inheritance graphs are legal - super creates a super-proxy object
+Pycon Finland - 200 members - 60 pyladies - no heat waves - fi.pycon.org
+Distributional Semantics - graphing word relations - compare vectors to calculate similarity
+pyladies - mentorship group for women - since autumn 2011 - ~1800 members - pip install pyladies; pyladies handbook
+iktomi forms - validation, internal repr, render form/validation error, nested data - works with sqlalchemy - iktomi-cms
+killer robot - using python to destroy the world - raspberry pi, python - inverse kinematics - portal turret audio
+ZeroVM - cloud virtualisation - not ZeroMQ/Docker - fully deterministic, no time/random - I/O, everything treated as a file - sandboxed, nasty code can only crash itself - py2 so far, py3 work in progress - zerovm.org github.com/zerovm
+Zombies and Application Frameworks - When Zombies Attack!, mathematical model - google app engine
+FritzConnection - Python API for AVM Fritzbox - UPnP / WSDL - SOAP / http - pip install fritzconnection
+Argument Clinic - turn python objects into C data - not very DRY, touch 5+ places - Add machine readable C comment to declare arguments with types/default values/etc - Pep 436
+Pep 473 - Structured Data on Exceptions - unhelpful error messages: eg IndexError
+Birthday - 8.5 bit hash function - Birthday Paradox - chance of hash collision in 2^(n/2) items with n bit hash (50%?)
+nsupdate.info / bepasty - both built in 48hr coding project
+CPython Core Security - Coverity Scan - Pep 456, prevent hash collision DoS - Pep 446, Non-inheritable File Descriptors - backports project - Pep 466 security feature backports to 2.7
+Nix
+Turing complete setup.py

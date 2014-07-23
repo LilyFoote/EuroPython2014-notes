@@ -1,0 +1,37 @@
+Costs of bugs increases the later they're discovered
+Ops - have idea over coffee - put in production and call it testing! - scared to touch it
+Ops - more risky - less time spent on planing/design
+DevOps - respect and learning
+- Devs learn: Optimise for running, not for developing
+- Ops learn: Start small - minimal viable product - test driven - code quality - test automation
+
+Untested = Broken - No tests = Legacy
+Unit tests - test the smallest possible components in an artificial environment - may still have external dependencies in ops
+System tests - test the entire app in a real(istic) environment with other apps
+
+Unit Tests:
+- part of build process
+- quick feedback ~ seconds
+- syntax checks
+
+System Tests:
+- install on test server
+- run tests from outside
+- run tests from inside - simulate error conditions - rsh: good for automation - reboot: also a test
+- mock away details irrelevant to the test
+
+Build Automation:
+- source repo
+- build system - Jenkins etc
+- build server - run unit tests
+- test server - run system tests
+- deploy to production
+
+Remove barriers to contribution - allow dev to fix ops issue / vice versa
+Use routing/firewalling to mock network problems
+
+lab-manager-light
+
+Continuous Live Deployment - deploy apps when ready - trust tests
+
+http://go.schapiro.org/slides

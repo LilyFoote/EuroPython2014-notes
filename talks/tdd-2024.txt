@@ -1,0 +1,26 @@
+Approved tools - non-coding architects - BAD - Zombie tech
+Allan Kelly - no TDD = Unemployable
+TDD - disruptive tech
+TDD - still in early adopters phase
+Early adopters - try tech without proof of advantages
+Mainstream - become more practical, don't lose essential advantages
+Tests give design feedback - isolation, decoupling
+Self-testing - enables refactoring
+Feeling of freedom and productivity
+Code Kata - codekata.pragprog.com - tdd in ideal conditions
+Coding Dojo - group learning - write code, tests, collaborate, discuss
+Visualise TDD - cyber-dojo.org
+Narrow TDD - only suited to narrow conditions
+Adapt to local conditions
+Essential parts - incremental working, freedom & productivity, testable units, design api before implementation, self-testing code
+Test-Driven Development with Python - Harry Percival
+Conditions Unfavourable to TDD - Unknown requirements; unknown implementation; existing code without tests
+Unkown requirements - Double-loop tdd - Add acceptance tests - BDD - conversation and collaboration - not just developers - Build what the user needs
+Unkown implemenation - education, mentoring, research
+- Spike solution - don't do tdd, explore, then start over with tdd
+- Spike and stabilise - refactor exploratory code and add tests
+Legacy Code - "Working effectively with Legacy Code" - "Unit Test Anything" - Hard work, risky - might hard bake bad design - start with full system and integration tests, even if they take HOURS
+Approval Testing - Match input data to approved output - Diff old/new - Bug/Feature? - Find defects not covered by unit tests - Tool support: texttest.org - Can test spaghetti code!
+Tests Driving Design - Might not work for the majority
+Narrow TDD - Useful to know/experience
+Extended TDD - Useful to fit wider requirements

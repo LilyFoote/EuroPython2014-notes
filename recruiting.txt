@@ -1,0 +1,16 @@
+RhodeCode - git/hg compatibility, collaborative tools for engineers
+HP - openstack
+Amazon - machine learning, some other stuff!
+DemonWare - subsidiary of Activision Blizzard - multiplayer gaming
+RedHat
+Otto Group - data science
+Atlassian
+Ypsilon
+Blue Yonder - automated decision making - sci-kit-learn
+
+Poster sessions:
+
+Plone - nosql
+Redhat - enterprise support for 2.7/3.3
+... - data analysis / visualisation
+learning python

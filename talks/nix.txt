@@ -1,0 +1,14 @@
+Pep426 - packaging metadata
+Nix project - minimalist functional language / packaging tool - solves dependency hell - lazy evaluation - not just python - nixos.org
+Runs on Linux/Mac/BSD - Windows could be added
+Install to /nix/store/hash-name-version - Read-only fs
+hash is hash of all inputs
+Can override existing configurations
+Build server for binaries
+Packaging python for Nix - manually / python2nix - simple / pypi2nix - tries to handle edge cases
+
+nix-shell - like virtualenv but for os environment
+NixOS - OS - Stateless configuration
+NixOps
+Can be used with docker
+Nix "shines" when joining two stacks together

@@ -1,0 +1,29 @@
+Tests with less boilerplate
+Can run existing stdlib unittest tests
+Use bare `assert`, no need to subclass TestCase, no need for Test class
+Verbose coloured output
+Plugin system - pytest-django, pytest-cov, etc
+
+py.test - run all tests
+- py.test test_bar.py - run tests in test_bar.py
+- py.test -k test_foo - run test called test_foo
+
+@pytest.mark - can mark tests with a particular mark
+- py.test -m mark
+- py.test -m "not mark"
+- pytest.mark.skipif
+
+pytest fixtures
+- dependency injection
+- @pytest.fixture
+  def fixure_name(request): # request argument gives access to outside environment/pytest
+    ...
+- def test_foo(fixture_name):
+    ...
+- request.addfinalizer(...) # Cleanup
+- @pytest.fixture(scope='session') # fixture available for whole session - test speedup
+
+pytest-xdist - run tests in parallel
+- py.test -n 2 - run in two processes
+
+porting existing tests - unittest, nose, django supported - gradual conversion possible

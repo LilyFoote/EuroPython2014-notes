@@ -1,0 +1,7 @@
+Exploit multicore - parallela board by Adapteva Inc.
+Use python to allow rapid development / prototyping / exploring
+Message passing - avoid threads/locking - correctness important - hide hard details - deadlocks still possible
+Unix pipes / Go - make message channel (pipe) - goroutine lightwieght coroutine - pass message to channel / Rust - channel split into send/receive parts / Scala
+python-csp - python library - @process decorator - pass channel to functions - run functions in parallel explicitly
+naulang - built on RPython toolchain - compares well to Go / Occam-pi on small benchmark when run with JIT/async
+Difficult to get performance in interpreted language not designed for message passing

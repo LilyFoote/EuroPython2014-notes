@@ -1,0 +1,21 @@
+carlcrowder.com/ep14
+
+landscape.io
+
+Manual Code Review:
+- Catch errors by devs new to company / language / dev
+- Learn from each other
+- Catch business logic errors
+
+Automatic Code Review:
+- Style compliance
+- Track quality
+
+Out-of-date requirements - pip list -o - requires.io
+
+Understand output - not always errors, sometimes "are you sure?"
+Spend time to tune the tools - .pylintrc
+Measure and track over time - relative > absolute - CI server plugins (Jenkins) - Graphite / InfluxDB - Tessera / Grafana
+pylint plugins - pylint_django (github.com/landscapeio/pylint_django)
+
+Prospector - command line version of landscape - "static analysis for humans" - not a replacement, just an easy start

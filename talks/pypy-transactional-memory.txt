@@ -1,0 +1,20 @@
+PyPy STM - Software Transactional Memory - Ongoing research project - helped by crowdfunding - started at EuroPython 2011 lightning talk
+GIL - Global Interpreter Lock - Allows concurrency but not parallelism - easiest change to single threaded interpreter - easy with refcounting
++ve - atomic, isolated instructions, eg list.append()
+-ve - no parallelism - GIL not exposed to app - no larger scale atomicity so locks still needed at app level
+
+Remove the GIL:
+1: Fine-grained locking - harder to implement - deadlock risks - refcounting issues - high overhead - still need app level locking - Jython/IronPython, rely on JVM/.net
+2: Share nothing - independent parts of program get own interpreter - simple implementation - workaround, not direct replacement - not compatible with existing threaded apps - clean model, no locks - limited, overhead
+3: STM - like GIL but instead of blocking, run optimistically - "easy" to implement - GIL acquire: transaction start; GIL release - transaction commit
+       - overhead: check conflicting reads/writes, cancel/restart transactions - HTM, STM, hybrids exist - still research only
+
+PyPy STM: implementation of STM: "hard" part - replace GIL: "easy" part
+- reusable C library - called STMGC-C7
+- could be used in CPython if refcounting is replaced
+- preparing for a transaction commmit can run in parallel, commits run serially
+- threads and app locks still needed, but can be very coarse - two transactions run optimistically in parallel - no technical difference between GIL and other locks
+- make/use thread pool library - use coarse locking only within that library
+- keep locks coarse-grained - systematic conflicts: bad perfomance - track and fix these issues - needs tooling: debugger/profiler
+- 25-40% slower than PyPy-JIT
+- Initially slow but correct - improves with work - contast multithreading - fast first, but crashes

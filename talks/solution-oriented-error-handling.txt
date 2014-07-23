@@ -1,0 +1,7 @@
+Errors - User: broken input / Ops: insufficient environment / Dev: bugs
+Ideally dev writes program to provide info needed to fix errors
+contextlib.closing
+assert - for Dev - detect errors before release - validate pre-conditions - executable documentation
+raise - errors in data or environment - for User / Ops
+Error messages - "<actual> must be <expected>" - Use names and terms known to the User
+Make distinction between "OSError" and "DataError" and other errors - User fixes OSError / DataError, Dev fixes other errors - DataError not in STD Lib, just custom Exception class

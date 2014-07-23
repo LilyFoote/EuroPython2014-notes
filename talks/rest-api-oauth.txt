@@ -1,0 +1,3 @@
+django, DRF, Django OAuth toolkit
+Authorise client apps? - password gives app full access - user has to change password to revoke access - compromised app exposes user password
+- OAuth2

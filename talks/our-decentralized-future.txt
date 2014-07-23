@@ -1,0 +1,10 @@
+zeromq - process decentralized - real world decentralized, centralizing leads to problems
+distributed systems future of software - can't be built, only grown
+internet - stack of protocols / rfcs / contracts - destroyed earlier competitors from microsoft/ibm/aol etc
+good software - most devs don't recognise it - should be accurate/relevant - technical characteristics less important
+early zmq - bad process - two devs in charge - patches often rejected with no clear reason - changed to model as similar to wikipedia as possible - let people make mistakes and learn from them, allow rapid fixes
+Conway's Law - software mirrors internal process
+test cases - contracts - allows immediate feedback for breakages
+controversy - leads to forks - market decides
+bdfl - help streamline process
+authorities needed to enforce contracts / catch cheating
