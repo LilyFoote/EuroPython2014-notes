@@ -1,0 +1,18 @@
+Fixtures - Dependency Injection / Isolated / Composable
+
+Caching:
+@pytest.fixture(scope='session') # function / class / ...
+- Run expensive fixtures at a wider scope than default
+
+Fixtures can use fixtures - request built-in fixture often used - pass as function arg
+
+Skip / Fail in fixture - call pytest.skip(...) / pytest.fail(...)
+
+@pytest.mark.marker_name - py.test -m "not marker_name"
+pytest.ini - addopts = --strict - markers = marker_name ...
+Can detect markers from within a fixture - request.node.get_marker
+
+Parameterise fixtures:
+@pytest.fixture(params=[...])
+Access with reqest.param
+Can mark params to be skipped
