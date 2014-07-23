@@ -1,0 +1,13 @@
+python / postgresql - can use python to write stored procedures - PL/Python - use any python module
+Facebewk - tiny client for facebook graph api - Very slick!
+YAML Reader - Merge yaml config files - from yamlreader import yaml_load - load from directory, file, list of files, wildcard
+Seeking in compressed files - xz: compress file in blocks - lzmaffi to open xz files
+Mplay - python MIDI player
+python3-only django project - no __future__ - better super() - yield from - faulthandler - unittest.mock - asyncio (github.com/aaugustin/django-c10k-demo) - harder to accidentally use MySQL!
+pycrastinate - TODO less, DO more - Find TODOs etc in source code - Display age, blame, etc
+chirp - send/receive data via sound - turn url into sound and back again - app not open - reverse engineered to use with python - chirp.io/tech - github.com/moreati/chirppy
+Strace to the rescue - show syscalls executed while a program runs
+git lint - report errors on modified files/lines only - supports multiple linters / languages - pip install git-lint
+python fest - summer 2015 Poland - summer camp for python people
+django girls - tutorial.djangogirls.org
+imcompadre
