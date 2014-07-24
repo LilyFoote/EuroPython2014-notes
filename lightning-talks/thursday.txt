@@ -1,0 +1,14 @@
+netaddr - py3: ipaddress module - netaddr similar - also supports 2.4+, 3.0+ - support for IP ranges - mac address support - IPSet: avoid adding ~ 2**64 items to a set
+django girls - Pyxie Dust - 13-18 overuse, don't produce enough
+webcamp Zagreb Croatia
+"Who watches the watchmen" - hate testing - bad test: 100% coverage - mutation testing: breaks good, no breakage bad
+Config management for Klingons - bundlewrap.org
+Don't rely on getattr/hasattr - can mask AttributeError in unexpected location
+pip install e - python -me - python -me 'import this' - python -me flask # gives flask path -- devpi -- from community import python
+teaching python using minecraft - minecraft pi edition - pi.minecraft.net
+pycon brazil - on a beach
+pycon poland
+Jython 2.7
+How to make python more sexy - :trollface:
+parallel execution - increase speed / latency - actor model - parallel concurrency without locks - share nothing, immutable message passing - distributed system for free - Actress: python eventloop for actor message passing (proof of concept) - pypy-stm - deadlock.se
+Quantified Code - data driven source code monitoring - alpha.quantifiedcode.com
