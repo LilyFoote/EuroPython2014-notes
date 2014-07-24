@@ -1,0 +1,17 @@
+Referenced Talk: Blackbox Machine Learning - data -> black box -> predictions
+
+Probabilistic Programming - data -> open box -> predictions - black box inference engine
+
+Motivating example: A/B testing
+
+Start with constructed data for clear expectations before running on real data
+
+Which is better?
+- simplest: take the mean - maximum likelihood estimate - not a bad idea - doesn't indicate uncertainty
+- frequentist statistics - easy to misuse - depends on intentions when collecting data
+- bayesian statistics - Bayes Formula - prior beliefs + data -> posterior beliefs - represent beliefs as random data
+  In most interesting cases we can't solve Bayes Formula - Approximate it - Markov Chain Monte Carlo: draw samples from the posterior - can be applied very widely
+
+PyMC3 - python module for probabilistic programming - still alpha: mostly docs issues
+
+Hierarchical models - model similar algorithms - see how a group acts - partially pooled
