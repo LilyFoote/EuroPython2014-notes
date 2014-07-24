@@ -1,0 +1,4 @@
+Given a board state is a move legal? is it checkmate?
+
+Chess: 2 players - game ends in one winner or tie - 8x8 board - different pieces with different properties
+Data based on algebraic chess notation - ignore metadata: players, ranking, location, etc
