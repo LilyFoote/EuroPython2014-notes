@@ -1,0 +1,3 @@
+New python web framework
+Focused on modern web - REST - Rich JS apps - small
+http://morepath.readthedocs.org
