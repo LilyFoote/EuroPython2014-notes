@@ -1,0 +1,10 @@
+tox - meta test runner
+devpi - PyPI release workflow / QA
+- devpi-server
+- devpi-web
+- devpi-client
+- (devpi-common)
+
+pip install --extra-index-url - vulnerable to "higher version" attack
+
+bitbucket.org/hpk42/devpi
