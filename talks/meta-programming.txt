@@ -1,0 +1,2 @@
+- Or interesting ways to shoot yourself in the foot
+https://github.com/AndreaCrotti/meta-programming-talk
