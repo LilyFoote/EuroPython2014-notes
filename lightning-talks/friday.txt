@@ -1,0 +1,10 @@
+sparts - Quick service prototyping - pip install sparts
+blinky - live comparison of threading / callbacks / asyncio
+tryton unconference Leipzig 2014-11-14 - tryton: business framework - GNU Health
+Yet another conference announcement - django under the hood - two day conf - 14-15 Nov Amsterdam - http://djangounderthehood.com
+Cocaine - private cloud - github.com/cocaine - pluggable architecture - automatic load balancing - docker
+zipa - magic pythonic REST clients - github.com/vtemian/zipa
+Foreman Client - foreman: server management
+HSTS - HTTP Strict Transport Security
+Python Quant Platform - quant-platform.com
+Stella - compiling a subset of python - domain specific language
