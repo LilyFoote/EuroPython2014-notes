@@ -6,9 +6,9 @@ def answer(request):
     return 21 * request.param
 
 
-@pytest.fixture
-def answer2(answer):
-    return answer * 2
+@pytest.fixture(params=(2, 4))
+def answer2(request, answer):
+    return answer * request.param
 
 
 def test_answer(answer2):
