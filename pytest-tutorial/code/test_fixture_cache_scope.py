@@ -3,7 +3,10 @@ import pytest
 
 
 @pytest.fixture(scope="function")  # module, class, session
-def mod():
+def mod(request):
+    def pr():
+        print('Finished')
+    request.addfinalizer(pr)
     time.sleep(1)
     return 1
 
